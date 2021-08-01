@@ -12,13 +12,11 @@
         <div id="responsive-nav">
             <!-- NAV -->
             <ul class="main-nav nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Hot Deals</a></li>
-                <li><a href="#">Categories</a></li>
+                <li><a href="#">Desktop PC</a></li>
                 <li><a href="#">Laptops</a></li>
-                <li><a href="#">Smartphones</a></li>
-                <li><a href="#">Cameras</a></li>
-                <li><a href="#">Accessories</a></li>
+                <li><a href="#">IPad</a></li>
+                <li><a href="#">IMac</a></li>
+                <li><a href="#">Gamer Computer</a></li>
             </ul>
             <!-- /NAV -->
         </div>
@@ -95,10 +93,11 @@
                     <h3 class="title">New Products</h3>
                     <div class="section-nav">
                         <ul class="section-tab-nav tab-nav">
-                            <li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
-                            <li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-                            <li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-                            <li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+                            <li><a href="#">Desktop PC</a></li>
+                            <li><a href="#">Laptops</a></li>
+                            <li><a href="#">IPad</a></li>
+                            <li><a href="#">IMac</a></li>
+                            <li><a href="#">Gamer Computer</a></li>
                         </ul>
                     </div>
                 </div>
@@ -307,7 +306,7 @@
                     </ul>
                     <h2 class="text-uppercase">hot deal this week</h2>
                     <p>New Collection Up to 50% OFF</p>
-                    <a class="primary-btn cta-btn" href="#">Shop now</a>
+                    <a class="primary-btn cta-btn" href="{{route('productts')}}">Shop now</a>
                 </div>
             </div>
         </div>

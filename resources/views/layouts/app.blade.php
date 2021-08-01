@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
+    <meta name="csrf-token" content="{{ csrf_token() }}"/>
     <title>Electro - HTML Ecommerce Template</title>
 
     <!-- Google font -->
@@ -73,17 +73,7 @@
 
                 <!-- SEARCH BAR -->
                 <div class="col-md-6">
-                    <div class="header-search">
-                        <form>
-                            <select class="input-select">
-                                <option value="0">All Categories</option>
-                                <option value="1">Category 01</option>
-                                <option value="1">Category 02</option>
-                            </select>
-                            <input class="input" placeholder="Search here">
-                            <button class="search-btn">Search</button>
-                        </form>
-                    </div>
+                  
                 </div>
                 <!-- /SEARCH BAR -->
 
@@ -91,22 +81,12 @@
                 <div class="col-md-3 clearfix">
                     <div class="header-ctn">
                         <!-- Wishlist -->
-                        <div>
-                            <a href="#">
-                                <i class="fa fa-heart-o"></i>
-                                <span>Your Wishlist</span>
-                                <div class="qty">2</div>
-                            </a>
-                        </div>
+                     
                         <!-- /Wishlist -->
 
                         <!-- Cart -->
                         <div class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
-                                <i class="fa fa-shopping-cart"></i>
-                                <span>Your Cart</span>
-                                <div class="qty">3</div>
-                            </a>
+                        
                             <div class="cart-dropdown">
                                 <div class="cart-list">
                                     <div class="product-widget">
@@ -191,11 +171,11 @@
                     <div class="footer">
                         <h3 class="footer-title">Categories</h3>
                         <ul class="footer-links">
-                            <li><a href="#">Hot deals</a></li>
+                            <li><a href="#">Desktop PC</a></li>
                             <li><a href="#">Laptops</a></li>
-                            <li><a href="#">Smartphones</a></li>
-                            <li><a href="#">Cameras</a></li>
-                            <li><a href="#">Accessories</a></li>
+                            <li><a href="#">IPad</a></li>
+                            <li><a href="#">IMac</a></li>
+                            <li><a href="#">Gamer Computer</a></li>
                         </ul>
                     </div>
                 </div>

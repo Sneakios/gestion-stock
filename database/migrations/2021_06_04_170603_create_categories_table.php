@@ -17,6 +17,7 @@ class CreateCategoriesTable extends Migration
             $table->increments('id');
             $table->UnsignedInteger('id_dep');
             $table->string('nameCat');
+            $table->integer('amount')->default(0);
             $table->timestamps();
 
             $table->foreign('id_dep')->references('id')->on('departments')->onDelete('cascade');

@@ -14,8 +14,19 @@ class CreateProducttsTable extends Migration
     public function up()
     {
         Schema::create('productts', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
+            $table->UnsignedInteger('id_category');
+            $table->string('reference');
+            $table->string('name');
+            $table->text('description');
+            $table->string('state');
+            $table->decimal('price');
+            $table->string('picture');
+            $table->integer('rate');
+        
             $table->timestamps();
+
+            $table->foreign('id_category')->references('id')->on('categories')->onDelete('cascade');
         });
     }
 
